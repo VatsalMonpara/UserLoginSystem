@@ -130,6 +130,12 @@ ENV/
 env.bak/
 venv.bak/
 
+v67
+alembic.ini
+alembic
+vatsal.db
+.env
+
 # Spyder project settings
 .spyderproject
 .spyproject
