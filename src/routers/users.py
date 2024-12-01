@@ -45,7 +45,7 @@ def generate_otp(email:str):
         raise HTTPException(status_code=400, detail="User not found")
 
     random_otp = gen_otp(find_user.email, find_user.id)
-
+    
     send_email(find_user.email, "Test Email", f"Otp is {random_otp}")
 
    

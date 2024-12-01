@@ -61,7 +61,7 @@ def gen_otp(user_email, user_id):
     db.add(new_otp)
     db.commit()
     db.refresh(new_otp)
-    return new_otp
+    return random_otp
 
 
 
